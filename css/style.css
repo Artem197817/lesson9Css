@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{font-family: Montserrat;
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: Spectral SC;
+    src: url("../fonts/Spectralscsemibold.ttf");
+}
+body{
+    background-color: #d5d9da;
+    font-family: MonserratMedium, sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main-image{
+    background-image: url(../images/main.png);
+    background-size: cover;
+    background-position: center;
+    height: 811px;
+}
+.header{
+    background-color: #dde0db;
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.header .container{
+    font-size: 0;
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu{
+    margin-left: 354px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 28px;
+}
+.header-actions{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 94px;
+}
+.header a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #465055;
+}
+.button{
+    font-size: 16px;
+    line-height: 11px;
+padding: 14px;
+border-radius: 20px;
+cursor: pointer;
+border: 0;
+    width: 205px;
+}
+.button.button-transparent{
+    background-color: transparent;
+    border: 1px solid #818282;
+    color: #798890;
+    width: 205px;
+}
+.gallery{
+    padding: 102px 0 59px 0;
+}
+.gallery h2{
+    font-size: 40px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #2f2822;
+font-weight: 600;
+font-family: "Spectral SC", sans-serif;
+margin-bottom: 54px;
+text-align: center;
+}
+.gallery-description{
+    font-size: 18px;
+letter-spacing: 1px;
+color: #3e342c;
+text-align: center;
+margin-bottom: 18px;
+}
+.gallery-text{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    left: 20px;
+    bottom: 20px;
+    position: absolute;
+}
+.gallery-items{
+    margin-left: -12px;
+    margin-right: -12px;
+    font-size: 0;
+}
+.gallery-item{
+    margin: 12px 11px;
+    display: inline-block;
+    vertical-align: middle;
+width: 384px;
+height: 290px;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.gallery-item.gallery-item-big{
+    width: 792px;
+}
+.gallery-eye{
+    display: none;
+    opacity: 0.6;
+    background-color: black;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    line-height: 290px;
+    text-align: center;
+}
+.gallery-eye img{
+    vertical-align: middle;
+}
+.gallery-item:hover .gallery-eye{
+    display: block;
+}
+.tours{
+padding: 54px 0 89px 0;
+}
+.tours h2{
+    font-size: 40px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #2f2822;
+font-family: "Spectral SC", sans-serif;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.tours-items{
+    margin-left: -12px;
+    margin-right: -12px;
+    font-size: 0;
+}
+.tour-item{
+    max-width: 384px;
+    margin:  0 11px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.tour-item-info{
+        background-color: rgb(49, 57, 63);
+        padding: 22px 22px 40px 22px;
+
+}
+.tour-item-info-text{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 37px;
+    max-width: 325px;
+}
+.button.button-tour-info{
+        background-color: rgb(218, 130, 70);
+        font-size: 18px;
+        color: rgb(37, 41, 43);
+}
+.tour-item-action{
+    text-align: center;
+}
+.button.button-tour-info:hover {
+    box-shadow: 0 4px 14.25px 0.75px rgba(217, 149, 103, 0.8);
+}
+.fix-block{
+    width: 46px;
+    height: 46px;
+        background-color: rgb(218, 130, 70);
+        position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    line-height: 46px;
+}
+.fix-block img{
+    vertical-align: middle;
+}
+.footer{
+    background-color: rgb(49, 57, 63);
+}
+
+.footer .container{
+    padding: 54px 0 49px 0;
+    font-size: 0;
+    position: relative;
+}
+.footer-info{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    right: 0;
+    top: 57px;
+    text-align: center;
+}
+
+.footer-info h4{
+        font-size: 18px;
+        color: rgb(167, 185, 197);
+    margin-bottom: 15px;
+
+}
+.footer-info p{
+        font-size: 14px;
+        color: rgb(131, 145, 156);
+margin-bottom: 7px;
+
+}
